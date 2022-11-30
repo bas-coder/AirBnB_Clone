@@ -1,0 +1,27 @@
+.hero {
+    &__wrapper {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__image {
+        width: 600px;
+        align-self: center;
+        user-select: none;
+
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &__title {
+        margin-bottom: 16px;
+    }
+
+    &__text {
+        margin-top: 0;
+
+    }
+}

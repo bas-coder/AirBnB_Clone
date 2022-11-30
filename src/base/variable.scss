@@ -1,0 +1,20 @@
+//COLORS
+$black: #1d1d1d;
+$white: #fff;
+$gray: #7e7e7e;
+$light-gray: #cfcfcf;
+$brand-red: #ff385c;
+
+.divider {
+    color: $gray;
+    height: 30px;
+    border: 1px solid $light-gray;
+}
+
+.gray {
+    color: $gray;
+}
+
+.bold {
+    font-weight: bold;
+}
